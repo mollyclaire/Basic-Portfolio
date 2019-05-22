@@ -1,0 +1,49 @@
+/*Code for About Me main page*/
+* {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+body {
+    background-image: url("../images/papyrus.png");
+    width: 960px;
+    text-align: center;
+}
+
+/* .wrapper {
+    background-color: white;
+    padding: 40px;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+} */
+
+.logo {
+    background-color: green;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: white;
+    padding: 40px;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    text-decoration: none;
+    text-align: center;
+    color:green;
+    display: block;
+    padding: 10px;
+    flex: 1 1 0; 
+}
+
+.box {
+    background-color: white;
+}
