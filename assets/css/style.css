@@ -1,4 +1,4 @@
-/*Code for About Me main page*/
+/* Styles for all pages*/
 * {
     box-sizing: border-box;
     margin-left: auto;
@@ -9,6 +9,30 @@ body {
     background-image: url("../images/papyrus.png");
     /* width: 960px; */
 }
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem;    
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* height: 2.5rem;  */
+    background-color: #666666;
+    color: #ffffff;
+    border-top: 3px solid #4aaaa5;
+    height: 50px;
+    text-align: center;
+    font-size: 10px;           
+}
+/*Code for About Me main page*/
+/* Nav bar */
 
 .primary-header {
     display: flex;   
@@ -54,9 +78,11 @@ a {
     flex: 1 1 0; 
 } */ 
 
+/* Main paragraph section (About Me) */
 .box {
     background-color: white;
     width: 960px;
+    padding-bottom: 20px;
 }
 
 .about-title {
@@ -87,5 +113,28 @@ footer {
     font-size: 10px;
 }
 
+/* Code for Contact Page */
 
+.contact-title {
+    color: #4aaaa5;
+    margin-left: 50px;
+    padding: 25px 0px 10px 0px;
+    font-size: 32px;
+}
 
+form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 20px 20px 20px 50px;
+    color:  #666666;
+}
+
+input {
+    margin: 0px 0px 10px 0px;
+}
+
+button {
+    background-color:#4aaaa5;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+}

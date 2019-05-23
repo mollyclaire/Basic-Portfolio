@@ -7,30 +7,39 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Contact Page</title>
 </head>
-<body>
-<!-- This is the nav bar -->    
-    <header>
-        <h2>Molly Graham</h2>
-        <nav>
-            <a href="#">About</a> |
-            <a href="portfolio.html">Portfolio</a> | 
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+<body> 
+<div class="page-container"> 
+<div class="content-wrap"> 
+<header class="primary-header">
+        <h1 class="logo-name">Molly Graham</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">About</a></li><!--
+            --><li><a href="#">Portfolio</a></li><!--
+            --><li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+    </header>    
 <!-- This is the contact form -->
-    <div>
-        <h2>Contact</h2>
+    <section class="box">
+        <h1 class="contact-title">Contact</h1>
         <form>
             Name<br />
             <input type="text" name="fullname"><br />
             Email<br />
-            <input type="text" name="email"><br />
+            <input type="email" name="email"><br />
             Message<br />
             <textarea id="txtArea" rows="10" cols="70"></textarea><br />
             <button type="button">
             Submit    
             </button>
         </form>
-    </div>
+    </section>
+</div>   
+<!-- This is the footer -->
+<footer>
+    Copyright&#169;
+</footer>
+</div> 
 </body>
 </html>
